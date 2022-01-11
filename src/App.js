@@ -20,6 +20,7 @@ function App() {
         <Route path="/*" element={<NotFound />} />
         <Route path="/actor/:actorId" element={<Actors />} />
       </Routes>
+      <hr></hr>
       <Footer />
       <GlobalStyle />
     </Router>
